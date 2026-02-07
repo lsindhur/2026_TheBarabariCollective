@@ -29,7 +29,7 @@
 
 
 
-console.log(10 | 5);
+//console.log(10 | 5);
 
 //binary representation of 10 and 5
 //
@@ -41,6 +41,19 @@ console.log(10 | 5);
 
 
 //activity
-//console.log(25&26);
+console.log(25&26);
 //console.log(8|6);
 //console.log(10^12);
+
+
+// 25-16 = 9 => 9-8 => 1
+//64 32 16 8 4 2 1 
+//0  0  1  1 0 0 1 =25
+//0  0  1  1 0 1 0 = 26
+//0  0  1  1 0 0 0 = 16+8 = 24
+
+
+//64 32 16 8 4 2 1 
+//0  0   0 1 0 0 0 =8
+//0  0   0 0 1 1 0 =6
+//0  0   0 1 1 1 0 =14
