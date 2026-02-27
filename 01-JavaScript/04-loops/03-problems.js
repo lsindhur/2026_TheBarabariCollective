@@ -10,13 +10,13 @@
  * 3 x 3 = 9
  */
 
-for(let i=1; i<=3; i++) {
-    console.log("3 x",i+"=", i*3);
+/* for(let i=1; i<=3; i++) {
+    console.log("3 x",i,"=", i*3);
 }
 
 
 console.log("3"+5); //35
-
+ */
 
 
 
@@ -42,6 +42,11 @@ console.log("3"+5); //35
 //3 + 1 = 4
 //3 + 2 = 5
 //3 + 3 = 6
+
+for(let i=1; i<=3; i++) {
+    console.log('3 +',i,'=',i+3)
+}
+
 
 
 
