@@ -1,0 +1,86 @@
+let str = "world";
+str[4] = "D";
+console.log(str);
+
+What will be logged?
+a) "worlD"
+b) "world"
+c) Error
+d) undefined
+
+//b //strings are immutable
+-----------------------------------
+
+
+let num = 50;
+let copy = num;
+copy = 100;
+
+console.log(num);
+
+
+What will be logged?
+a) 100
+b) 50
+c) undefined
+d) Error
+
+//b //
+----------------------------------------
+
+let arr = [5, 10, 15];
+let newArr = arr;
+
+newArr[2] = 100;
+
+console.log(arr);
+
+What will be logged?
+a) [5, 10, 15]
+b) [5, 10, 100]
+c) Error
+d) undefined
+
+
+-------------------------------------------
+
+
+
+let arr = [1, 2, 3];
+let newArr = arr.slice(); //value
+newArr.push(4);
+console.log(arr);
+
+What will be logged?
+a) [1, 2, 3, 4]
+b) [1, 2, 3] 
+c) Error
+d) undefined
+
+
+-------------------------------------------
+const arr = [1, 2, 3];
+arr[0] = 99;
+console.log(arr);
+
+What will be logged?
+a) Error
+b) [99, 2, 3] //b
+c) [1, 2, 3] 
+d) undefined
+
+//does const allow the value to be changed??
+
+
+-------------------------------------
+
+
+const arr = [1, 2, 3];
+arr = [4, 5, 6];
+console.log(arr);
+
+What will happen?
+a) [4, 5, 6]
+b) Error
+c) undefined
+d) [1, 2, 3]
